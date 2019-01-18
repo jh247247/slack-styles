@@ -18,7 +18,8 @@
     border-radius: 50%;
 }
 
-.c-message_list__day_divider__line {
+.c-message_list__day_divider__line,
+.c-message_list__unread_divider__separator {
     border-top-width: 3px;
 }
 
