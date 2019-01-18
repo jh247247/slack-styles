@@ -1,3 +1,13 @@
+/* ==UserStyle==
+@name         Make Slack have whitespace like Stride
+@namespace    slack.com
+@version      1.0.0
+@license      unlicense
+@preprocessor default
+@updateURL    https://gist.github.com/jh247247/24e5e3c2503dd6cac87842ae2a5e99cc/raw
+==/UserStyle==
+*/
+
 .c-message {
     padding-left: calc(50% - 376px);
     padding-right: calc(50% - 376px);
