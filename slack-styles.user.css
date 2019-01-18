@@ -1,0 +1,23 @@
+.c-message {
+    padding-left: calc(50% - 376px);
+    padding-right: calc(50% - 376px);
+    padding-bottom: 16px;
+}
+
+.c-avatar img {
+    border-radius: 50%;
+}
+
+.c-message_list__day_divider__line {
+    border-top-width: 3px;
+}
+
+.emoji.emoji-only {
+    height: 64px;
+    width: 64px;
+}
+
+.c-message__body .emoji.emoji-sizer:not(.emoji-only) {
+    height: 32px;
+    width: 32px;
+}
