@@ -4,7 +4,7 @@
 @version      1.0.0
 @license      unlicense
 @preprocessor default
-@updateURL    https://gist.github.com/jh247247/24e5e3c2503dd6cac87842ae2a5e99cc/raw
+@updateURL    https://raw.githubusercontent.com/jh247247/slack-styles/master/slack-styles.user.css
 ==/UserStyle==
 */
 
@@ -25,7 +25,9 @@
 
 .emoji.emoji-only {
     height: 64px;
-    width: 64px;
+    width: auto;
+    background-position: left;
+    background-size: auto;
 }
 
 .c-message__body .emoji.emoji-sizer:not(.emoji-only) {
