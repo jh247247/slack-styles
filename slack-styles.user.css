@@ -27,7 +27,7 @@
     height: 64px;
     width: auto;
     background-position: left;
-    background-size: auto;
+    background-size: contain;
 }
 
 .c-message__body .emoji.emoji-sizer:not(.emoji-only) {
