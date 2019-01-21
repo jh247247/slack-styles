@@ -23,14 +23,27 @@
     border-top-width: 3px;
 }
 
-.emoji.emoji-only {
-    height: 64px;
-    width: auto;
-    background-position: left;
-    background-size: contain;
+.emoji-sizer {
+  font-size: 32px !important;
+  padding: 4px !important;
+}
+.emoji-sizer.emoji-only {
+  font-size: 64px !important;
 }
 
-.c-message__body .emoji.emoji-sizer:not(.emoji-only) {
-    height: 32px;
-    width: 32px;
+/* fix reaction panel buttons */
+
+.rxn_panel button {
+  padding: 4px !important;
+  height: 100% !important;
+}
+.rxn_panel button .emoji-sizer {
+  margin: 0px !important;
+  vertical-align: middle !important;
+}
+
+/* fix add reaction button */
+
+.rxn.menu_rxn .ts_icon {
+  top: initial !important;
 }
