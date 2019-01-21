@@ -34,3 +34,18 @@
     height: 32px;
     width: 32px;
 }
+
+/* Clearer "New Messages" divider */
+.c-message_list__unread_divider__label {
+    color: #ecb22f;
+}
+.c-message_list__unread_divider__separator {
+    border-color: #ecb22f;
+}
+
+/* Font updates */
+#client-ui,
+.ql-editor,
+.ql-placeholder {
+    font-family: "iA Writer Duospace", "IBM Plex Mono", -apple-system, BlinkMacSystemFont, sans-serif;
+}
