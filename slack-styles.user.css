@@ -42,10 +42,3 @@
 .c-message_list__unread_divider__separator {
     border-color: #ecb22f;
 }
-
-/* Font updates */
-#client-ui,
-.ql-editor,
-.ql-placeholder {
-    font-family: "iA Writer Duospace", "IBM Plex Mono", -apple-system, BlinkMacSystemFont, sans-serif;
-}
