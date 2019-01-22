@@ -47,3 +47,11 @@
 .rxn.menu_rxn .ts_icon {
   top: initial !important;
 }
+
+/* Clearer "New Messages" divider */
+.c-message_list__unread_divider__label {
+    color: #ecb22f;
+}
+.c-message_list__unread_divider__separator {
+    border-color: #ecb22f;
+}
