@@ -1,19 +1,21 @@
 /* ==UserStyle==
 @name         Make Slack have whitespace like Stride
 @namespace    slack.com
-@version      1.0.0
+@version      1.0.1
 @license      unlicense
 @preprocessor default
 @updateURL    https://raw.githubusercontent.com/jh247247/slack-styles/master/slack-styles.user.css
 ==/UserStyle==
 */
 
+/* Center messages */
 .c-message {
     padding-left: calc(50% - 376px);
     padding-right: calc(50% - 376px);
     padding-bottom: 16px;
 }
 
+/* Make avatars circle */
 .c-avatar img {
     border-radius: 50%;
 }
@@ -23,12 +25,15 @@
     border-top-width: 3px;
 }
 
-.emoji-sizer {
+/* Larger emojis */
+.message_content .emoji-sizer,
+.c-message__body .emoji-sizer {
   font-size: 32px !important;
-  padding: 4px !important;
+  margin: 0px !important;
 }
-.emoji-sizer.emoji-only {
-  font-size: 64px !important;
+.message_content .emoji-sizer.emoji-only,
+.c-message__body .emoji-sizer.emoji-only {
+  font-size: 48px !important;
 }
 
 /* fix reaction panel buttons */
